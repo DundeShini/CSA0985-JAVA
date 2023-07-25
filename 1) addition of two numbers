@@ -9,3 +9,6 @@ class first
     }
     
 }
+
+output:
+10+20=30
