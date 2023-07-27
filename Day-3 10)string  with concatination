@@ -1,0 +1,11 @@
+class string{
+public static void main(String[]args){
+String name="shini";
+String department="cse";
+String joinedString=name.concat(department);
+System.out.println(joinedString);
+}
+}
+
+output:
+shinicse
