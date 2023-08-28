@@ -1,0 +1,10 @@
+ class Chocolate
+ {  
+Chocolate()
+{
+    System.out.println("chocolate is sweet");
+}  
+public static void main(String args[]){  
+Chocolate b=new Chocolate();  
+}  
+}  
