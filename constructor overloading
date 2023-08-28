@@ -1,0 +1,22 @@
+class person{  
+    int id;  
+    String name;  
+    int age;  
+    person(int i,String n)
+    {  
+    id = i;  
+    name = n;  
+    }  
+    person(int i,String n,int a){  
+    id = i;  
+    name = n;  
+    age=a;  
+    }  
+    void display(){System.out.println(id+" "+name+" "+age);}  
+    public static void main(String args[]){  
+    person s1 = new person(111,"shini");  
+    person s2 = new person(222,"Aswini",25);  
+    s1.display();  
+    s2.display();  
+   }  
+}
