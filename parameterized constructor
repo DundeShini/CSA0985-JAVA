@@ -1,0 +1,20 @@
+  class person
+  {  
+    int id;  
+    String name;  
+    person (int i,String n)
+    {  
+    id = i;  
+    name = n;  
+    }  
+    void display()
+    {
+     System.out.println(id+" "+name);
+    }  
+    public static void main(String args[]){  
+    person s1 = new person(111,"shini");  
+    person s2 = new person(222,"Aswini");  
+    s1.display();  
+    s2.display();  
+   }  
+}  
